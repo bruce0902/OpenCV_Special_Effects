@@ -1,4 +1,4 @@
-This repository is used todo some visual effects by opencv.
+This repository is used to do some visual effects by opencv.
 1.open the code it will take the picture of your background, then it can make red, blue or green things invisible.
 
 
