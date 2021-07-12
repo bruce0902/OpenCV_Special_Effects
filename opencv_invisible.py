@@ -1,10 +1,9 @@
 import cv2
 import numpy as np
 import time
-SIZE = 1
 cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi',fourcc, 20.0, (SIZE*640,SIZE*480))
+out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
 time.sleep(0.1)
 count = 0
 background=0
